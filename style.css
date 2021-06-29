@@ -21,12 +21,9 @@ body {
   max-width: 1200px;
 }
 
-.header {
+.header-container {
   height: 80px;
-  display: flex;
-  flex-direction: column;
   z-index: 4;
-  margin-left: 0;
   left: 0;
 }
 
@@ -66,7 +63,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-left: 360px;
 }
 
 .header-text {
@@ -152,6 +148,33 @@ h1 {
   position: absolute;
   margin-left: 1450px;
   margin-top: 492px;
+}
+
+.f4 {
+  position: absolute;
+  margin-left: 1055px;
+  margin-top: 72px;
+  transform: rotate(15deg);
+}
+
+.f5 {
+  position: absolute;
+  transform: rotate(15deg);
+  margin-left: 910px;
+  margin-top: 104px;
+}
+
+.f6 {
+  position: absolute;
+  transform: rotate(15deg);
+  margin-left: 965px;
+  margin-top: 196px;
+}
+
+.f7 {
+  position: absolute;
+  margin-left: 795px;
+  margin-top: 650px;
 }
 
 .b1 {
