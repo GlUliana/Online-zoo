@@ -21,7 +21,7 @@ body {
   max-width: 1200px;
 }
 
-.header-container {
+.header {
   height: 80px;
   z-index: 4;
   left: 0;
