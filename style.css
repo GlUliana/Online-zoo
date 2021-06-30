@@ -178,16 +178,31 @@ h1 {
 }
 
 .b1 {
-  transform: rotate(15deg);
   position: absolute;
-  margin-left: 1412px;
-  margin-top: 217px;
+  margin-top: 120px;
+  margin-left: 370px;
 }
 
 .b2 {
   position: absolute;
-  margin-left: 1447px;
-  margin-top: 396px;
-  transform: rotate(15deg);
+  margin-top: 145px;
+  margin-left: 350px;
 }
 
+.b3 {
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 265px;
+}
+
+.b4 {
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 230px;
+}
+
+.b5 {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 410px;
+}
