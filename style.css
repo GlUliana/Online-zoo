@@ -83,6 +83,19 @@ button:active {
   transform: scale(0.9);
 }
 
+a {
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  cursor: grabbing;
+  transform: scale(0.9);
+}
+
 .about {
   -webkit-text-stroke: 0.7px #70CB0E;
 }
@@ -205,4 +218,51 @@ h1 {
   position: absolute;
   margin-left: 230px;
   margin-top: 410px;
+}
+
+.b6 {
+  margin-left: 920px;
+  position: absolute;
+}
+
+.b7 {
+  position: absolute;
+  margin-top: 577px;
+  margin-left: 758px;
+}
+
+.b8 {
+  position: absolute;
+  margin-top: 484px;
+  margin-left: 688px;
+}
+
+.b9 {
+  position: absolute;
+  margin-top: 503px;
+  margin-left: 776pxs;
+}
+
+.b10 {
+  position: absolute;
+  margin-top: 355px;
+  margin-left: 820px;
+}
+
+.b11 {
+  margin-top: 465px;
+  position: absolute;
+  margin-left: 835px;
+}
+
+.b12 {
+  position: absolute;
+  margin-top: 408px;
+  margin-left: 925px;
+}
+
+.b13 {
+  position: absolute;
+  margin-top: 222px;
+  margin-left: 944px;
 }
