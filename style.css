@@ -36,15 +36,11 @@ body {
   position: relative;
   width: 100%;
   height: 700px;
+  background: radial-gradient(71.89% 152.21% at 40.1% 50%, #B5E6FF 0%, #59C3FB 100%);
 }
 
 .h1-panda {
   z-index: 2;
-  height: 700px;
-}
-
-.main-top-background {
-  background: radial-gradient(71.89% 152.21% at 40.1% 50%, #B5E6FF 0%, #59C3FB 100%);
   height: 700px;
 }
 
@@ -265,4 +261,54 @@ h1 {
   position: absolute;
   margin-top: 222px;
   margin-left: 944px;
+}
+
+.how-it-works {
+  height: 983px;
+  position: relative;
+  width: 100%;
+}
+
+.pets-in-zoo {
+  height: 1058px;
+  position: relative;
+  width: 100%;
+}
+
+.pay-and-feed {
+  height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+.testimonials {
+  height: 797px;
+  position: relative;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background-color: #DFF5B0;
+}
+
+.footer-grass {
+  position: absolute;
+  width: 1895px;
+  bottom: 1px;
+}
+
+.buttons-footer {
+  margin-top: 80px;
+}
+
+.donate-for-volunteers {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  background: #70CB0E;
 }
