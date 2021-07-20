@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
 }
 
 
@@ -272,6 +273,7 @@ h1 {
   height: 1058px;
   position: relative;
   width: 100%;
+  align-items: center;
 }
 
 .pay-and-feed {
@@ -296,23 +298,81 @@ h2 {
   width: 1365px;
   height: 549px;
   margin-top: 29px;
+  margin-bottom: 32px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-how-it-works {
   width: 933px;
   font-size: 16px;
   text-align: center;
-}
-
-.cover-text-hiw {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .a-discount {
   color: #0000FF;
   text-decoration: underline;
+}
+
+.pets-in-zoo-scroll {
+  width: 1160px;
+  height: 630px;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.choose-your-favorite-button {
+  width: 286px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #70CB0E;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-pad {
+  width: 1051px;
+  height: 273px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-feed-element {
+  width: 320px;
+}
+
+.cards {
+  margin-left: 29px;
+  margin-top: 21px;
+  position: absolute;
 }
 
 footer {
@@ -334,10 +394,6 @@ footer {
   width: 100%;
   height: 170px;
   display: grid;
-}
-
-.donate-for-volunteers {
-  font-size: 18px;
 }
 
 .donate-for-volunteers-button {
