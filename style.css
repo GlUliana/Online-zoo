@@ -365,14 +365,8 @@ h2 {
   justify-content: space-between;
 }
 
-.pay-feed-element {
+.pay-feed-div {
   width: 320px;
-}
-
-.cards {
-  margin-left: 29px;
-  margin-top: 21px;
-  position: absolute;
 }
 
 footer {
