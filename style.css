@@ -369,6 +369,55 @@ h2 {
   width: 320px;
 }
 
+.back-pay-feed {
+  position: absolute;
+}
+
+.element-pay-feed {
+  position: absolute;
+}
+
+.pay-feed-back-elem-div {
+  position: relative;
+  height: 235px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-pay-feed {
+  text-align: center;
+  font-size: 16px;
+}
+
+.comments-div {
+  width: 1160px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 369px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.leave-feedback-button {
+  width: 246px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #70CB0E;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
   position: relative;
   width: 100%;
