@@ -11,13 +11,12 @@ body {
   position: relative;
 }
 
-.absolute-top-center {
-  position: absolute;
+.top-center {
   top: 0;
   left: 0;
   right: 0;
-  margin: 0 auto;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bound-width {
@@ -25,9 +24,11 @@ body {
 }
 
 .header {
+  position: absolute;
   height: 80px;
   z-index: 4;
   left: 0;
+  width: 100%;
 }
 
 .main {
@@ -43,6 +44,8 @@ body {
 }
 
 .h1-panda {
+  position: absolute;
+  width: 100%;
   z-index: 2;
   height: 700px;
 }
@@ -299,24 +302,12 @@ h2 {
   height: 549px;
   margin-top: 29px;
   margin-bottom: 32px;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .text-how-it-works {
   width: 933px;
   font-size: 16px;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .a-discount {
@@ -330,11 +321,6 @@ h2 {
   align-items: center;
   margin-top: 80px;
   margin-bottom: 50px;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .choose-your-favorite-button {
@@ -345,21 +331,11 @@ h2 {
   align-items: center;
   border-radius: 30px;
   background: #70CB0E;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .how-pad {
   width: 1051px;
   height: 273px;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
@@ -393,11 +369,6 @@ h2 {
 
 .comments-div {
   width: 1160px;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
   height: 369px;
   margin-top: 80px;
   margin-bottom: 50px;
@@ -411,11 +382,6 @@ h2 {
   align-items: center;
   border-radius: 30px;
   background: #70CB0E;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 footer {
@@ -432,6 +398,8 @@ footer {
 }
 
 .buttons-footer {
+  position: absolute;
+  width: 100%;
   margin-top: 80px;
   margin-bottom: 20px;
   width: 100%;
