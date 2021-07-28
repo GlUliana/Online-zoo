@@ -5,8 +5,8 @@
   font-size: 18px;
 }
 
-
-body {
+/* Styles for landing.html */
+.body-landing {
   width: 100%;
   position: relative;
 }
@@ -508,4 +508,18 @@ footer {
 .element-a:active {
   cursor: grabbing;
   transform: scale(0.9);
+}
+
+/* Styles for error404.html */
+.body-error404 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.error404-element {
+  position: absolute;
 }
