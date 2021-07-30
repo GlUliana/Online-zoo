@@ -101,7 +101,7 @@ a:active {
   -webkit-text-stroke: 0.7px #70CB0E;
 }
 
-h1 {
+.watch {
   font-size: 70px;
   color: #000000;
   font-weight: 900;
@@ -518,4 +518,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Styles for map.html */
+.body-map {
+  width: 100%;
+  position: relative;
+}
+
+.main-map {
+  height: 945px;
 }
