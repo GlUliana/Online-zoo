@@ -1,2 +1,2 @@
 # Online-zoo
-[My project Online-zoo](http://127.0.0.1:5500/Online-zoo/main.html)
+[My project Online-zoo](github.com/GlUliana/Online-zoo/landing.html)
