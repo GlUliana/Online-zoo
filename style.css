@@ -523,11 +523,6 @@ h2 {
   flex-direction: column;
 }
 
-.goback_error404 {
-  font-size: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 /* Styles for map.html */
 .main-map {
   height: 945px;
@@ -536,4 +531,35 @@ h2 {
 /* Styles for zoos.html */
 .main-zoos {
   height: 1550px;
+}
+
+aside {
+  z-index: 5;
+}
+
+.aside-back {
+  margin-top: 80px;
+  position: fixed;
+}
+
+.aside-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 93px;
+  margin-left: 20px;
+}
+
+a.tooltip span {
+	display: none; 
+	padding: 2px 3px; 
+	margin-left: 8px; 
+	width: 130px;
+}
+a.tooltip:hover span {
+	display: inline; 
+	position: absolute; 
+	background: #70CB0E; 
+	border: 1px solid #cccccc; 
+	color: #6c6c6c;
 }
